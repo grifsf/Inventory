@@ -17,7 +17,8 @@ Inventory::Inventory(string name, float price, int count)
   m_in_stock = count;
 }
 /*
- *Void function that sells stock
+ *void function that sells stock.
+ *Now checks what current stock is before attempting to remove any.
  */
 void Inventory::sell()
 {

@@ -23,7 +23,7 @@ void Inventory::sell()
 {
   if(m_in_stock==0)
   {
-    std::cout << "Sorry, that item is out of stock" << endl;
+    std::cout << "Sorry, that item is out of stock" << std::endl;
   }
   else
   {

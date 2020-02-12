@@ -4,7 +4,12 @@
 
 using std::string;
 using std::ostream;
-
+/*
+ * A simple class that stores the name price and number of stock of an item and has 
+ * a mechanism to sell items.
+ *
+ *
+ */
 class Inventory
 {
   private:
